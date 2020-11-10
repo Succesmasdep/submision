@@ -2,16 +2,17 @@ body {
                 font-family: Quicksand;
 }
 
-.jumbotron {
+.container-fluid {
                 background:#ffffff;
-                height:600px;
+                height:650px;
 }
 
 .box1 {
+                background: transparent;
                 height:320px;
                 width:490px;
-                margin-top:80px;
-                margin-left:120px;
+                margin-top: 140px;
+                margin-left:140px;
                 
 }
 
@@ -24,3 +25,39 @@ body {
                 font-size:20px;
                 color:#2880CE;
 }
+
+/* -- Layout Cara Voting -- */
+
+/* -- Layout Kandidat -- */
+.container-fluid h3 {
+                text-align: center;
+                color:#2880CE;
+                margin-top: 35px;
+}
+
+.row {
+                display: flex;
+                flex-direction: row;
+                justify-content:space-around;
+}
+
+.card {
+                border: #fab73f solid;
+                margin-top:100px;
+                
+                height: 250px;
+                width:200px;
+}
+
+.card img {
+                margin-top: 10px;
+                margin-left: 40px;
+                height:80px;
+                width:110px;
+}
+
+.card-body {
+                text-align: center;
+                color:#2880CE;
+}
+/* -- Statistik -- */
