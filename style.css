@@ -2,26 +2,41 @@ body {
                 font-family: Quicksand;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container-fluid {
-                background:#ffffff;
-                height:650px;
+    min-height:650px;
 }
 
-.box1 {
-                background: transparent;
-                height:320px;
-                width:490px;
-                margin-top: 140px;
-                margin-left:140px;
-                
+.box {
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.box1 h1{
+.box-container {
+    min-height: 38em;
+    background: url(https://www.prakerja.go.id/images/home-illustration.png) top right / contain no-repeat;
+}
+
+.box-heading {
+    padding-left: 2em;
+    background: url(https://www.prakerja.go.id/images/dots.png) left bottom / auto 7em no-repeat;
+    min-height: 34em;
+    padding-top: 5em;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.box-heading h1{
                 font-size:35px;
                 color:#2880CE;
 }
 
-.box1 p{
+.box-heading p{
                 font-size:20px;
                 color:#2880CE;
 }
