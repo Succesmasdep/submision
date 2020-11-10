@@ -1,0 +1,26 @@
+body {
+                font-family: Quicksand;
+}
+
+.jumbotron {
+                background:#ffffff;
+                height:600px;
+}
+
+.box1 {
+                height:320px;
+                width:490px;
+                margin-top:80px;
+                margin-left:120px;
+                
+}
+
+.box1 h1{
+                font-size:35px;
+                color:#2880CE;
+}
+
+.box1 p{
+                font-size:20px;
+                color:#2880CE;
+}
