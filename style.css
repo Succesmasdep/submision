@@ -17,14 +17,14 @@ html {
 
 .box-container {
     min-height: 38em;
-    background: url(https://www.prakerja.go.id/images/home-illustration.png) top right / contain no-repeat;
+    background:white;
 }
 
 .box-heading {
     padding-left: 3em;
-    background: url(https://www.prakerja.go.id/images/dots.png) left bottom / auto 7em no-repeat;
+    background:white;
     min-height: 34em;
-    padding-top: 5em;
+    padding-top: 9em;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
@@ -33,52 +33,28 @@ html {
 
 .box-heading h1{
                 font-size:35px;
-                color:#2880CE;
+                color:#50658e;
+}
+
+.box-heading h2{
+                font-size:35px;
+                color:#f86168;
 }
 
 .box-heading p{
-                font-size:20px;
-                color:#2880CE;
+                font-size:17px;
+                color:##727885;
+}
+
+.box-heading img{
+                    margin-top:-230px;
+                    margin-left:330px;
+                    max-width: 400px;
 }
 
 /* -- Layout Cara Voting -- */
 
 /* -- Layout Kandidat -- */
-.container-fluid h3 {
-                text-align: center;
-                color:#2880CE;
-                margin-top: 35px;
-}
-
-.row {
-                display: flex;
-                flex-direction: row;
-                justify-content:space-around;
-}
-
-.card {
-                border: #fab73f solid 5px;
-                border-radius: 20px 20px 20px 20px;
-                margin-top:100px;
-                height: 250px;
-                width:200px;
-}
-
-.card img {
-                margin-top: 10px;
-                margin-left: 40px;
-                height:80px;
-                width:110px;
-}
-
-.card-body {
-                text-align: center;
-                color:#2880CE;
-}
 /* -- Statistik -- */
-.container-fluid canvas {
-                margin-top:90px;
-                max-height:350px;
-                max-width:700px;
-}
+
 
