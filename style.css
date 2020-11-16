@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 body {
-    font-family: Quicksand;
+  font-family: Quicksand;
 }
 
 html {
@@ -41,6 +41,7 @@ section.container-fluid {
 }
 
 .table-informasi {
+    background: white;
     border:#e7e8eb solid 1px;
     border-radius: 10px;
 }
@@ -49,3 +50,12 @@ section.container-fluid {
     padding: 1em 1em 0 1em;
 }
 
+.kasus-content {
+    font-size: 1.25rem;
+}
+
+.kasus-content span {
+    font-family: "Oswald",sans-serif;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
