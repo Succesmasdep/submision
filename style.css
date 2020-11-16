@@ -1,76 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 body {
-                font-family: Quicksand;
+    font-family: Quicksand;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.container-fluid {
-    min-height:650px;
+section.container-fluid {
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
-.box {
-    padding-left: 0;
-    padding-right: 0;
+.heading {
+    min-height: 30em;
+    background: url(img/img1.png) top right / contain no-repeat;
 }
 
-.box-container {
-    min-height: 38em;
-    background:white;
+.heading-title {
+    font-family: "Oswald",sans-serif;
+    font-weight: bold;
+    font-size: 5.25rem;
+    line-height: 0.9;
 }
 
-.box-heading {
-    padding-left: 3em;
-    background:white;
-    min-height: 34em;
-    padding-top: 9em;
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-}
-
-.box-heading h1{
-    font-size:35px;
+.heading-content h1{
     color:#50658e;
 }
 
-.box-heading h2{
-    font-size:35px;
+.heading-content h2{
     color:#f86168;
 }
 
-.box-heading p{
-    font-size:17px;
-    color:##727885;
+.heading-content p{
+    max-width: 30em;
+    font-size: 17px;
+    color: #3d4b69;
+    line-height: 1.6;
 }
 
-.box-heading img{
-    margin-top:-230px;
-    margin-left:330px;
-    max-width: 400px;
-}
-
-/* -- Layout Informasi -- */
-.container button {
-    font-size:13px;
-    border-radius:20px;
-    display: inline;
-    margin-top: 12px;
-    margin-left: 10px;
-}
-
-.col-8 {
+.table-informasi {
     border:#e7e8eb solid;
     border-radius: 10px 10px 10px 10px;
-    margin-left:160px;
 }
 
-.col-8 label {
-    font-size: 14px;
+.tab-informasi {
+    padding: 1em 1em 0 1em;
 }
-/* -- Layout Kandidat -- */
-/* -- Statistik -- */
-
 
