@@ -59,3 +59,19 @@ section.container-fluid {
     font-weight: bold;
     font-size: 2.25rem;
 }
+
+.statistik .btn-group {
+    background-color: #e8f0fe;
+    border-color: #d2e3fc;
+        border: 1px solid #dfe1e5;
+    border-radius: 18px;
+}
+
+.statistik-btn {
+    color: #1967d2;
+}
+
+.statistik-btn:hover {
+color: #1967d2;
+}
+

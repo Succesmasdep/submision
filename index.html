@@ -171,6 +171,76 @@
     </div>
 </section>
 
+<section class="container-fluid statistik" id="section-statistik">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-informasi container">
+                <div class="tab-informasi">
+                    <h5 class="font-weight-bold">Statistik Perubahan harian</h5>
+                </div>
+
+                <hr>
+
+                <div class="mx-4 w-100">
+                    <div class="btn-group" role="group">
+                        <span id="btn-kelas-baru" type="button" class="btn statistik-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Kelas Baru
+                        </span>
+                        <div class="dropdown-menu" aria-labelledby="btn-kelas-baru">
+                            <a class="dropdown-item" href="#">Kasus Baru</a>
+                            <a class="dropdown-item" href="#">Meninggal</a>
+                        </div>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <span id="btn-filter-negara" type="button" class="btn statistik-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAIAAACR5s1WAAACiElEQVR4AbySsQrCMBCGL2kIrl1LB2cXJ1/NJ3DyDXwhQUXBij6AlLq14GI9256hdyVD6Kh/4Au5+0l+uCgigl5VVTVN07Yt/F5RFBlj4jjmo4TI89wlgP/K5UjTVEIURYGIlkCfLs39ARpE5LexChEoR7eCTlgRdGSmabeYf7Sy1iZJYtwUEHGio+dyhdmNiBSAzCgkgz3ytNDXCcZv8B47n8Wb9RuxLEvNU+h2R8yu0DsCKSbDM/AoYaDA44DnW7vdA0Bd15p/Yn3Ihrgkwb1o4NAJyV3hmLyH8dqeHBFRA+tLSRmgMAzDQAz//9E3cHegVTSjAMTJOvApcswgT0wiQLvkBYkZAq2EZNDI2zRbgYCPJJr0SAKs2QS+uvkchVc3dicnGkLNJr4kygDni0mDyIJD0MW98A+t2YS+B7J5lXJmruXRqq52IkuCPK6ad5mEt4RNK5JQmAMJY0UpPeUmNqPjv7NmJ9p44EG7cHqUmAzfKa1yHk1H+BjVAPl8cmIAXy9EtcKsjcSE1EmaLGlWabALA9uD7vsrcMUkmnKdzvzaENT2xjZ4w9wk7RczGvKEd9QDOkFm9gAfYuW7wiZqAOA5sU7wfkxPLEPkVvmNHqs0d4MpN+pSScukJ56OJK0YwiRAlJl4TgaaKU2m34MIqJ24jQfTN3c9AANQkROhTX5d0OWnHTPQACAEgmgdtAAC/f/PFUAFC3KTOQ7gHPYcO6iKmifAq7WqailFRIJt0Nta4098nN9DOIRDOIRDOIRDOARsHqbeu303S1NKBzweJeacMxhmjIFSQmyFSImJBX8lxn34fHxBgFtrLVynyrxeocoMtqHEvI0uAp+oqkQxqBeRnDO3JyRrdKP36b0BAAAAAElFTkSuQmCC"
+                                height="23" style="margin-right:8px" width="23" alt="Indonesia" data-atf="4">
+                            Indonesia</span>
+                        </span>
+                        <div class="dropdown-menu" aria-labelledby="btn-filter-negara">
+                            <a class="dropdown-item" href="#">Seluruh dunia</a>
+                            <a class="dropdown-item" href="#">Bangladesh</a>
+                            <a class="dropdown-item" href="#">India</a>
+                            <a class="dropdown-item" href="#">Iran</a>
+                            <a class="dropdown-item" href="#">Singapura</a>
+                        </div>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <span id="btn-filter-negara" type="button" class="btn statistik-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Semua
+                        </span>
+                        <div class="dropdown-menu" aria-labelledby="btn-filter-negara">
+                            <a class="dropdown-item" href="#">Semua</a>
+                            <a class="dropdown-item" href="#">1 minggu</a>
+                            <a class="dropdown-item" href="#">2 minggu</a>
+                            <a class="dropdown-item" href="#">30 hari</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mx-3 w-100">
+                    <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
